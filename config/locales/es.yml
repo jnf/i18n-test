@@ -1,0 +1,7 @@
+es:
+  hello: "Hola %{name}!"
+  today: "Hoy es %{date}."
+  root_link: "Leído en español."
+  time:
+    formats:
+      default: "%d %m %Y"

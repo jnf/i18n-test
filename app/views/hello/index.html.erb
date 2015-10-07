@@ -1,0 +1,4 @@
+<h1><%= t(:hello, name: @name) %></h1>
+<h2><%= t(:today, date: l(Time.now)) %></h2>
+<%= link_to t(:root_link, locale: :en), localize_path(:en) %>
+<%= link_to t(:root_link, locale: :es), localize_path(:es) %>
